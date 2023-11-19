@@ -1,4 +1,4 @@
-FROM maven:4.9.3-eclipse-temurin-17
+FROM maven:3.9.3-eclipse-temurin-17
 LABEL author="Nadeem" organization="Insignia"
 RUN apt update
 RUN java -version
