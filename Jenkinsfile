@@ -17,6 +17,7 @@ pipeline{
             steps{
                 sh "mvn package"
                 sh "java -jar /home/ubuntu/workspace/SPC-PIPELINE/target/spring-petclinic-3.1.0-SNAPSHOT.jar"
+                sh "docker image build -t spc ."
             }    
         } 
     }
