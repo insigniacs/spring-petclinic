@@ -7,5 +7,4 @@ RUN cd /spring-petclinic
 RUN mvn --version
 RUN mvn -f /spring-petclinic/pom.xml package
 EXPOSE 8080
-CMD ["java", "-jar", "/spring-petclinic/target/spring-petclinic-3.1.0-SNAPSHOT.jar"]
-~                                                                                             
+CMD ["java", "-jar", "/spring-petclinic/target/spring-petclinic-3.1.0-SNAPSHOT.jar"]                                                                                           
