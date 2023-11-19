@@ -4,7 +4,7 @@ pipeline{
     }
     tools{
         jdk 'jdk-17'
-        mvn 'mvn'
+        maven 'mvn'
     }
     stages{
         stage("Game-of-life"){
